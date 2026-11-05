@@ -1,0 +1,51 @@
+[
+  {
+    "character": "Pennywise",
+    "file": "pennywise.jpg",
+    "sha256": "e126882e107e65926fadb3e4f53df5b36b1725458ab2a57dce88bff95b456d5b",
+    "source": "Unchanged existing user-supplied asset from preceding application; see SOURCES.md",
+    "generated": false
+  },
+  {
+    "character": "Jason Voorhees",
+    "file": "reference-2.jpg",
+    "sha256": "64721236b04bb08dfdac54c4ead0e07974b109281f5009b9cc0bb9a445c91112",
+    "source": "Unchanged existing user-supplied asset from preceding application; see SOURCES.md",
+    "generated": false
+  },
+  {
+    "character": "Annabelle",
+    "file": "reference-4.jpg",
+    "sha256": "44a5d1f19cdba64925060c632e63ae99eadb7f2fd0eb3e30d27efce51749b31b",
+    "source": "Unchanged existing user-supplied asset from preceding application; see SOURCES.md",
+    "generated": false
+  },
+  {
+    "character": "Chucky",
+    "file": "reference-5.jpg",
+    "sha256": "fed134824da73fdef5429fb1e0eccb236c5b4d8c1e310f5fcae22b21cb36f45e",
+    "source": "Unchanged existing user-supplied asset from preceding application; see SOURCES.md",
+    "generated": false
+  },
+  {
+    "character": "Casper",
+    "file": "reference-6.jpg",
+    "sha256": "c591ea767d40b6280b7140939843e97d2068a9d49300056232fb3a022f9821eb",
+    "source": "Unchanged existing user-supplied asset from preceding application; see SOURCES.md",
+    "generated": false
+  },
+  {
+    "character": "Wednesday",
+    "file": "reference-3.jpg",
+    "sha256": "116c0ef0854da7e43900f38f417850968a15db6b187a239bda911fd7424d0b9e",
+    "source": "Unchanged existing user-supplied asset from preceding application; see SOURCES.md",
+    "generated": false
+  },
+  {
+    "character": "Pumpkin",
+    "file": "pumpkin.png",
+    "sha256": "da74bca66118db073b23b41dd9fb7085855e56fb0f9c8826bdffbf6ca1600ec1",
+    "source": "Unchanged existing user-supplied asset from preceding application; see SOURCES.md",
+    "generated": false
+  }
+]

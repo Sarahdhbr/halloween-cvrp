@@ -1,0 +1,41 @@
+{
+  "nodeVersion": "v22.22.1",
+  "cpu": "Intel(R) Core(TM) Ultra 5 125H",
+  "runs": [
+    {
+      "cwMilliseconds": 3.759363999999991,
+      "hybridMilliseconds": 89.242735
+    },
+    {
+      "cwMilliseconds": 0.9982889999999998,
+      "hybridMilliseconds": 93.46043399999999
+    },
+    {
+      "cwMilliseconds": 1.8192960000000085,
+      "hybridMilliseconds": 82.14109200000001
+    },
+    {
+      "cwMilliseconds": 1.0376729999999839,
+      "hybridMilliseconds": 81.690135
+    },
+    {
+      "cwMilliseconds": 1.0261490000000322,
+      "hybridMilliseconds": 88.62493399999994
+    },
+    {
+      "cwMilliseconds": 1.316186000000016,
+      "hybridMilliseconds": 93.499729
+    },
+    {
+      "cwMilliseconds": 1.0197460000000547,
+      "hybridMilliseconds": 87.47753
+    }
+  ],
+  "runsCount": 7,
+  "cwSeconds": 0.0010376729999999838,
+  "hybridIncrementalSeconds": 0.08862493399999993,
+  "totalMethodSeconds": 0.08965108299999996,
+  "scope": "Wall time, median of 7 runs in one Node process. Instance generation and runtime startup excluded. The method total includes CW and all 12 attempts.",
+  "initialCost": 673.0424007707024,
+  "methodCost": 663.1603652052456
+}

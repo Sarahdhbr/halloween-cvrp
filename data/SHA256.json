@@ -1,0 +1,9 @@
+{
+  "exact-at-most-seven.json": "f2894cf4c47a3919f79ad7dbbc654d24431b0702966f7f5f6835a58a0bc13ca2",
+  "exact-seven.json": "471d4738d1d9ac19a08ef6b976b790356ae63b606309051d13b531fef9367001",
+  "execution.json": "4121e1bfa58be71c0d10c1f1a570e215834b9b7964b2aeed95adc40feb14d997",
+  "heuristic-timings.json": "4e44c1983adee00ed85286d8a94cb69e35a6cca5204ce141fcbf34c5ad61c439",
+  "original-instance.json": "91767e3ad46763d60c4b8fadacae41002b32422a083d58dcb9e8045b71f2a350",
+  "solver-at-most-seven.log": "483ffd12d113b7edda30578a4d0dc58da5af87cf2ce6417560c76f2434fcfcb7",
+  "solver-seven.log": "6e44b9b964ccb34e55c2640616f26d36a27cf10c4e088bdd918dab4d19b4ca66"
+}

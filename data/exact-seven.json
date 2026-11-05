@@ -1,0 +1,96 @@
+{
+  "model": "Full directed CVRP with single-commodity load flow",
+  "solver": "HiGHS via scipy.optimize.milp",
+  "scipyVersion": "1.16.3",
+  "fleetPolicy": "exactly",
+  "fleetLimit": 7,
+  "instanceSha256": "59c59f85fd5e9ea290b27e2c6df33fb484b0748a6ea6c789807051a943d303d6",
+  "statusCode": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "certifiedOptimal": true,
+  "label": "Proven optimal",
+  "routes": [
+    [
+      0,
+      9,
+      3,
+      2,
+      8,
+      1,
+      7,
+      13,
+      0
+    ],
+    [
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      11,
+      12,
+      6,
+      5,
+      4,
+      0
+    ],
+    [
+      0,
+      15,
+      0
+    ],
+    [
+      0,
+      17,
+      18,
+      24,
+      30,
+      29,
+      28,
+      0
+    ],
+    [
+      0,
+      21,
+      27,
+      26,
+      25,
+      20,
+      19,
+      14,
+      0
+    ],
+    [
+      0,
+      23,
+      22,
+      16,
+      0
+    ]
+  ],
+  "cost": 650.9689173658642,
+  "feasible": {
+    "coverage": true,
+    "capacity": true,
+    "depot": true,
+    "fleet": true
+  },
+  "solutionSource": "HiGHS incumbent",
+  "bestBound": 650.968917365833,
+  "gap": 4.785204439832792e-14,
+  "solverReportedGap": 0,
+  "branchAndBoundNodes": 64,
+  "binaryVariables": 930,
+  "continuousFlowVariables": 930,
+  "constraints": 1923,
+  "timeLimitSeconds": 90,
+  "buildSeconds": 0.009914868998748716,
+  "solverSeconds": 11.71098509500007,
+  "totalSeconds": 11.726123180000286,
+  "knownUpperBoundBeforeSolve": 663.1603652052455,
+  "pythonVersion": "3.14.4",
+  "numerics": "Double precision, mip_rel_gap=0, solver feasibility and integrality tolerances apply.",
+  "scope": "All directed arcs on the fixed graph. No route-pool restriction.",
+  "highsVersion": "1.8.0"
+}

@@ -1,0 +1,157 @@
+Running HiGHS 1.8.0 (git hash: unknown): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+02]
+  Cost   [6e+00, 1e+02]
+  Bound  [1e+00, 2e+01]
+  RHS    [1e+00, 7e+02]
+Presolving model
+1893 rows, 1830 cols, 8160 nonzeros  0s
+1893 rows, 1830 cols, 8112 nonzeros  0s
+
+Solving MIP model with:
+   1893 rows
+   1830 cols (930 binary, 0 integer, 0 implied int., 900 continuous)
+   8112 nonzeros
+MIP-Timing:       0.036 - starting analytic centre calculation
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic; L => Sub-MIP;
+     P => Empty MIP; R => Randomized rounding; S => Solve LP; T => Evaluate node; U => Unbounded;
+     z => Trivial zero; l => Trivial lower; u => Trivial upper; p => Trivial point
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.0s
+         0       0         0   0.00%   563.1743755     inf                  inf        0      0      4       749     0.1s
+ L       0       0         0   0.00%   644.3349599     650.9689174        1.02%     2120    176    221      7812     6.6s
+
+75.9% inactive integer columns, restarting
+Model after restart has 465 rows, 397 cols (203 bin., 0 int., 0 impl., 194 cont.), and 1891 nonzeros
+
+         0       0         0   0.00%   644.3819428     650.9689174        1.01%       84      0      0     10278     6.6s
+         0       0         0   0.00%   644.3910864     650.9689174        1.01%       84     71      3     10699     6.7s
+
+4.4% inactive integer columns, restarting
+Model after restart has 437 rows, 368 cols (190 bin., 0 int., 0 impl., 178 cont.), and 1873 nonzeros
+
+         0       0         0   0.00%   645.0406801     650.9689174        0.91%       67      0      0     13321     7.6s
+         0       0         0   0.00%   645.0406801     650.9689174        0.91%       67     62      8     13701     7.7s
+        64       0        32 100.00%   650.9689174     650.9689174        0.00%     1172     78   1123     64179    11.7s
+
+Solving report
+  Status            Optimal
+  Primal bound      650.968917366
+  Dual bound        650.968917366
+  Gap               0%
+  P-D integral      0.0463279695179
+  Solution status   feasible
+                    650.968917366 (objective)
+                    0 (bound viol.)
+                    2.03011722786e-12 (int. viol.)
+                    0 (row viol.)
+  Timing            11.70 (total)
+                    0.00 (presolve)
+                    0.00 (solve)
+                    0.00 (postsolve)
+  Max sub-MIP depth 6
+  Nodes             64
+  Repair LPs        0 (0 feasible; 0 iterations)
+  LP iterations     64179 (total)
+                    43907 (strong br.)
+                    4160 (separation)
+                    10975 (heuristics)
+{
+  "model": "Full directed CVRP with single-commodity load flow",
+  "solver": "HiGHS via scipy.optimize.milp",
+  "scipyVersion": "1.16.3",
+  "fleetPolicy": "exactly",
+  "fleetLimit": 7,
+  "instanceSha256": "59c59f85fd5e9ea290b27e2c6df33fb484b0748a6ea6c789807051a943d303d6",
+  "statusCode": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "certifiedOptimal": true,
+  "label": "Proven optimal",
+  "routes": [
+    [
+      0,
+      9,
+      3,
+      2,
+      8,
+      1,
+      7,
+      13,
+      0
+    ],
+    [
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      11,
+      12,
+      6,
+      5,
+      4,
+      0
+    ],
+    [
+      0,
+      15,
+      0
+    ],
+    [
+      0,
+      17,
+      18,
+      24,
+      30,
+      29,
+      28,
+      0
+    ],
+    [
+      0,
+      21,
+      27,
+      26,
+      25,
+      20,
+      19,
+      14,
+      0
+    ],
+    [
+      0,
+      23,
+      22,
+      16,
+      0
+    ]
+  ],
+  "cost": 650.9689173658642,
+  "feasible": {
+    "coverage": true,
+    "capacity": true,
+    "depot": true,
+    "fleet": true
+  },
+  "solutionSource": "HiGHS incumbent",
+  "bestBound": 650.968917365833,
+  "gap": 4.785204439832792e-14,
+  "solverReportedGap": 0.0,
+  "branchAndBoundNodes": 64,
+  "binaryVariables": 930,
+  "continuousFlowVariables": 930,
+  "constraints": 1923,
+  "timeLimitSeconds": 90.0,
+  "buildSeconds": 0.009914868998748716,
+  "solverSeconds": 11.71098509500007,
+  "totalSeconds": 11.726123180000286,
+  "knownUpperBoundBeforeSolve": 663.1603652052455,
+  "pythonVersion": "3.14.4",
+  "numerics": "Double precision, mip_rel_gap=0, solver feasibility and integrality tolerances apply.",
+  "scope": "All directed arcs on the fixed graph. No route-pool restriction."
+}
